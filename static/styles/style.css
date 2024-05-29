@@ -2,19 +2,22 @@ body {
     background-color: rgb(36, 36, 36);
 }
 
-
-/* .secs {
-    display:inline-block;
-    color: rgb(24, 83, 211);
-} */
-
-
 .apple>h1 {
-    display: block;
     color: brown;
 }
 
 .apple {
     text-align: center;
+}
 
+.hard {
+    display: block;
+    text-align: center;
+
+}
+
+.hard>img {
+    display:inline-block;
+    max-width: 1000px;
+    max-height: 1000px;
 }
